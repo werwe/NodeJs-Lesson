@@ -7,7 +7,7 @@ function route(handle, pathname, response) {
 		response.writeHead(200, {
 			"Content-Type": "text/plain"
 		});
-		response.write(content);
+		response.write("404 Not Found");
 		response.end();
 	}
 }

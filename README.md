@@ -1,5 +1,8 @@
 Node.js Lesson Project
 
+formidable 모듈을 필요로 함
+installation : npm install formidable
+
 Node.js resources
 
 Note.js tutorial

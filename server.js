@@ -6,18 +6,11 @@ function start(route, handle) {
 		var pathname = url.parse(request.url).pathname;
 		var query = url.parse(request.url).query;
 		console.log("Request for " + pathname + " received.");
-		var content = route(handle, pathname);
-		response.writeHead(200, {
-			"Content-Type": "text/plain"
-		});
-		response.write(content);
-		response.end();
-		//response.end("Hellow World");
+		route(handle, pathname, response);
 	}
 	var server = http.createServer(onRequest);
 	server.listen(8000);
 	console.log("Server has started.");
 }
-
 
 exports.start = start;

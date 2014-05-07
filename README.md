@@ -8,6 +8,9 @@ http://www.nodebeginner.org/index-kr.html
 UncaughtException Hadling & Cluster Module
 http://shapeshed.com/uncaught-exceptions-in-node/
 
+UncaughtException 이 발생 할 경우 Twitter client를 통해 트윗을 날리는 것도 좋은 방법이다.
+Node.twitter - https://github.com/AvianFlu/ntwitter
+
 서버 재실행시 오류 나는 경우
 NodeMon을 설치하잣!
 npm install nodemon -g

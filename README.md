@@ -20,4 +20,8 @@ npm install nodemon -g
 만약 권한 에러 나면
 sudo chown -R $USER /usr/local
 
+BDD
+ 블로그. 여름으로 가는 문 - http://blog.doortts.com/220 
+ VOWS  한글 - http://doortts.com/vows/
+
 

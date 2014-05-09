@@ -25,10 +25,11 @@ npm install nodemon -g
 만약 권한 에러 나면
 sudo chown -R $USER /usr/local
 
+usage : nodemon name
+        nodemon name localhost 8000
+
 
 # 5. Testing
 ## 5.1. BDD
-*[여름으로 가는 문](http://blog.doortts.com/220) 
+*[여름으로 가는 문](http://blog.doortts.com/220)
 *[VOWS 한글](http://doortts.com/vows/)
-
-

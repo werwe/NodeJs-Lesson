@@ -6,14 +6,16 @@ http://www.nodebeginner.org/index-kr.html
 ##1.1 npm install command tip's
 
 package.json
+```json
 {
     "name" : "JS Playground Hello World",
     "version" : "0.0.1"
 }
-
+```
 npm install express --save
 
 "--save" option이 추가 되면 의존성을 package.json 에 자동으로 추가한다.  
+```json
 {
     "name": "JS Playground Hello World",
     "version": "0.0.1",
@@ -21,6 +23,7 @@ npm install express --save
         "express": "~2.5.9"
     }
 }
+```
 
 #2 의존성
 [node-formidable](https://github.com/felixge/node-formidable)  
